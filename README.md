@@ -10,6 +10,8 @@ One original one-line auto-reply in the voice of an AI agent, written to /output
 
 ## Run it
 
+The program writes the entry exactly as quoted above, with no trailing newline.
+
 ```sh
 python3 main.py
 ```

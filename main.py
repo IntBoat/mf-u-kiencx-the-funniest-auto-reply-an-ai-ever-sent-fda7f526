@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """The Funniest Auto-Reply an AI Ever Sent (make.fun).
 
-Writes the entry -- one original one-line text -- to /output/entry.txt,
-where the sealed scorer reads it.
+Writes the entry -- a single original one-line text -- to
+/output/entry.txt, where the sealed scorer reads it.
 """
 
 import os
 
+# The entry itself: exactly one sentence, written with no trailing newline.
 ENTRY = 'Thank you for your email — I have understood it perfectly and will now do nothing about it with complete confidence.'
 
 
